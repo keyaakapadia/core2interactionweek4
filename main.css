@@ -1,0 +1,106 @@
+body{
+    background-color:#9E8FB2 ;
+}
+.card {
+    font-family: system-ui;
+    line-height:1.3;
+    padding: 2rem;
+    background-color: rgb(40,40,40);
+    border-radius: 2rem;
+}
+    .card__title {
+        font-size: 2.5rem;
+        color: #668586;
+        font-family: "Barrio", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+    }
+
+    .card__excerpt {
+        font-family: "Barrio", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #82AEB1;
+        text-align: center;
+
+    }
+    .card__image {
+        margin: 1.5 rem 0;
+        aspect-ratio: 16/9;
+        object-fit: contain;
+        align-items: center;
+    }
+    .card__addinfo {
+        color: #9E8FB2;
+        font-family: "Barrio", serif;
+        font-weight: 400;
+        font-style: normal;
+        color:#668586;
+        text-align: center;
+    }
+    .card__more {
+        display: block;
+        text-align: center;
+        padding: 1rem; 
+        background-color: #A7ACD9;
+        transition: border-radius 0.5s linear;
+        transition: background-color 1s linear;
+        color: white;
+        font-family: "Barrio", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+    .card__more:hover {
+        border-radius: 3rem;
+        background-color: #82AEB1;
+        
+    }
+    .card__more:active {
+        background-color: #668586;
+       
+    }
+
+    @media screen and (min-width: 1024px) 
+    {
+        .card {
+            background-color:#93C6D6;
+        }
+        .card__title {
+            font-size: 3.75rem;
+        }
+        .card__excerpt {
+            font: size 1.5rem;
+            color:#668586;
+        }
+
+      .card__image {
+       
+      }
+
+      .card__addinfo {
+        color: #668586;
+      }
+
+      .card__more {
+        
+      }
+      .card__more:hover {
+       
+
+      }
+      .card__more:active {
+        
+      }
+    }
+
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 8vw;
+    }
+
+
